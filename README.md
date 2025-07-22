@@ -82,3 +82,29 @@ These insights can directly inform retention campaigns and improve customer targ
   -  Real-time churn prediction
   
    - Model deployment for business use
+
+## Libraries used
+Data Handling
+
+- pandas – For data manipulation and preprocessing
+
+- numpy – For numerical operations
+
+📊 Data Visualization
+- matplotlib – To create plots and graphs
+
+- seaborn – For enhanced visualizations (heatmaps, distributions, etc.)
+
+📈 Machine Learning Models
+- sklearn.model_selection – For train/test split and cross-validation (train_test_split, GridSearchCV)
+
+- sklearn.tree – For building decision tree models
+
+- sklearn.ensemble – For using Gradient Boosting (GradientBoostingClassifier)
+
+- sklearn.metrics – For evaluation metrics (classification_report, confusion_matrix, roc_auc_score, roc_curve)
+
+📊 Model Explanation & Tuning
+- sklearn.preprocessing – For label encoding or scaling features
+
+- sklearn.pipeline – To streamline preprocessing and modeling steps
